@@ -1,0 +1,35 @@
+.container{
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.sub-container{
+    height: 500px;
+    width: 500px;
+}
+
+.con1{
+    background-color: blue;
+    order: 3;
+}
+
+.con2{
+    background-color: rgb(155, 7, 7);
+    order: 1;
+}
+
+#con3{
+    background-color: rgb(11, 139, 64);
+    order:5;
+}
+
+#con4{
+    background-color: pink;
+    order: 2;
+}
+
+#con5{
+    background-color: yellow;
+    order: 4;
+}
