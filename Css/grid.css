@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    border: 2px solid blue;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+    grid-template-rows: minmax(100px,auto);
+}
+
+.sub-container{
+    border: 3px solid red;
+    background-color: rgb(211, 123, 164);
+    /* background-image: url("https://wallpapers.com/images/hd/himalaya-pictures-fu8panda9oae4inq.jpg"); */
+    color: black;
+    font-style: italic;
+}
+
+@media (max-width: 1440px){
+    .sub-container{
+        border: 3px solid yellow;
+        background-image: url("https://wallpapers.com/images/hd/himalaya-pictures-fu8panda9oae4inq.jpg");
+        /* width: 1000px; */
+        /* height: 100px; */
+        background-size: cover;
+    }
+    .container{
+        background-image: url("https://i.pinimg.com/originals/7b/ee/24/7bee247b258dafe0ed7d913d0c1e2b4b.jpg");
+        /* background-image: image(desktop); */
+        background-size: cover;
+    }
+}
